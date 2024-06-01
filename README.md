@@ -14,8 +14,10 @@ Nmap, Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler...
  WinPEAS, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
 ```
 
-
+```html
 <iframe src="https://giphy.com/embed/igQNK5cVj4O94QtIGW" width="480" height="271" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/DallasFuel-overwatch-overwatchleague-owl2020-igQNK5cVj4O94QtIGW">via GIPHY</a></p>
+```
+
 
 
 
