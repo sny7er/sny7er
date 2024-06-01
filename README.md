@@ -14,7 +14,7 @@ Network / Linux / Windows AD  - nmap, WinPEAS, gobuster, ffuf, LinPEAS, SQLMap, 
 
 ### I like to play Overwatch and Moira is my Main
 
-![][(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZ0MWRicmJ6amtpdG9lYzRqcXZydDVpY3Byd3EyZ2FoOHR5bDRuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/igQNK5cVj4O94QtIGW/giphy.gif)|300]
+![](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWZ0MWRicmJ6amtpdG9lYzRqcXZydDVpY3Byd3EyZ2FoOHR5bDRuaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/igQNK5cVj4O94QtIGW/giphy.gif)
 
 
 
