@@ -1,17 +1,24 @@
 ## Hi there 👋
 
+I'm Mark
+
+I'm a Penetration Tester that does Web Application / API and Network Penetration testing including Windows Active-Directory.
 
 
+### I commonly use these tools for Web Testing.. 
+```
+Nmap, Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler...
+```
 
-
+### These are some of the Tools and Techniques I use for Network Penetration Testing
+```
+ WinPEAS, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
+```
 
 
 
 
 blah blah
-
-
-
 
 
 blahblah
