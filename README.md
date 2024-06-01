@@ -1,18 +1,16 @@
-Hello There :)
+Hello 🙂
+
+### I do Web and Network Penetration Testing
 
 
-Network / AD and Web Application / API Penetration Tester
-
-
-### I commonly use these tools for Web Testing.. 
-```
+# I commonly use these tools for Web Testing.. 
 Nmap, Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler...
-```
 
-### These are some of the Tools and Techniques I use for Network Penetration Testing
-```
- WinPEAS, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
-```
+
+# These are some of the Tools I use for Network Penetration Testing
+
+WinPEAS, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
+
 
 
 ## Also I like to play Overwatch and Moira is my Main
