@@ -1,6 +1,5 @@
 Hello there 🙂
 
-### I do Web / API and Network / Windows AD / Linux Penetration Testing
 
 <br /><br />
 #### I commonly use these tools for Web Testing.. 
