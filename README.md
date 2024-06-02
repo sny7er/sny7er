@@ -3,7 +3,7 @@ Hello there 🙂  I'm a Web Application and Network Penetration Tester with more
 <br /> 
 <br />
 
-#### Commonly used tools / techniques
+### Commonly used tools / techniques
 ```bash
 Web / Pentesting Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler...
 
