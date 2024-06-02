@@ -1,11 +1,10 @@
 ## Hello there 🙂  I'm a Web Application and Network Penetration Tester with a Systems Background
 
-<br /> 
 <br />
 
-### Commonly used tools / techniques
+### Some Commonly used tools / techniques
 ```bash
-Web / Pentesting Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler...
+Web / Pentesting Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler.
 
 Network / Linux / Windows AD  - nmap, WinPEAS, gobuster, ffuf, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
 
