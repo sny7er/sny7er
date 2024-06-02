@@ -4,9 +4,9 @@
 
 ### Some Commonly used tools / techniques
 ```bash
-Web / Pentesting Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler.
+Web  -  Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler.
 
-Network / Linux / Windows AD  - nmap, WinPEAS, gobuster, ffuf, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
+Network - nmap, WinPEAS, gobuster, ffuf, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
 
 ```
 
