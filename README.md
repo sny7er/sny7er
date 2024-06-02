@@ -4,7 +4,9 @@
 
 <br />
 <br />
+
 ### Commonly used tools / techniques
+
 ```bash
 Web  -  Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler.
 
