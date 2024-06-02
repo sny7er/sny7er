@@ -10,7 +10,7 @@ Network / Linux / Windows AD  - nmap, WinPEAS, gobuster, ffuf, LinPEAS, SQLMap, 
 
 ```
 
-### I've had many findings but I particularly enjoy XSS
+### I enjoy finding XSS
 <img src=https://github.com/sny7er/sny7er/assets/120743732/e0a04989-27d5-41d8-9801-4dd9a72eea31 width=500>
 
 
