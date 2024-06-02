@@ -1,19 +1,20 @@
-## Hello there 🙂  I'm a Web Application and Network Penetration Tester with a Systems Background
-
+Web Application and Network Penetration Tester with a Systems Background
 <br />
 
-### Some Commonly used tools / techniques
+### I enjoy finding XSS
+<img src=https://github.com/sny7er/sny7er/assets/120743732/e0a04989-27d5-41d8-9801-4dd9a72eea31 width=500>
+
+<br />
+<br />
+
+
+### Commonly used tools / techniques
 ```bash
 Web  -  Gobuster, Fuff, Nikto, Burp, Postman/ SOAP UI, Fiddler.
 
 Network - nmap, WinPEAS, gobuster, ffuf, LinPEAS, SQLMap, SMB attacks, CrackMapExec, psexec, Responder,  Metasploit, wmic, evil-winrm, ldapsearch, MimiKatz, Kerberoast, Impacket, Bloodhound, PTH, proxychains, chisel, Evilginx, hashcat, John the Ripper.
 
 ```
-<br />
-
-### I enjoy finding XSS
-<img src=https://github.com/sny7er/sny7er/assets/120743732/e0a04989-27d5-41d8-9801-4dd9a72eea31 width=500>
-
 
 <br /><br />
 
