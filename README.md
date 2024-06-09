@@ -14,6 +14,11 @@ Network - nmap, WinPEAS, LinPEAS, gobuster, ffuf, SQLMap, SMB attacks, CrackMapE
 
 ```
 
+### Win PE
+<img src=https://github.com/sny7er/sny7er/blob/main/WinPE_mindmap.jpg width=600>
+
+
+
 <br /><br />
 
 ### I play Overwatch
