@@ -15,10 +15,6 @@ chisel, Evilginx, hashcat, John the Ripper
 
 ```
 
-### Win PE
-<img src=https://github.com/sny7er/sny7er/blob/main/WinPE_mindmap.jpg width=300>
-
-
 
 <br /><br />
 
