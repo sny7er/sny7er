@@ -1,5 +1,11 @@
 
-
+<h1>Recent Findings</h1>
+<b></b>Mimikatz on Hardened Endpoint</b>
+<br>
+<b>Enumerating a Network - Getting Web Sites into Burp</b>
+<br>
+<b>Recon Workflow</b>
+<br>
 
 
 Web  -  Burp, Postman / SOAP UI, Gobuster, Fiddler
