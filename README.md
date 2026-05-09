@@ -7,12 +7,13 @@
 
 
 <details>
+<br>
   
 <b>XSS Findings<b>
 
 I've found quite a few stored and reflected XSS issues over the years. I enjoy discovering them and understanding how the application is handling input and output. I'll probably post more detailed writeups later, but for now I just wanted to share a few notes on my general process.
 
-My typical approach is to start with simple payloads in input fields, for example:
+My typical approach is to start with simple payloads in input fields:
 
 ```html
 <img src=xss>
@@ -20,24 +21,12 @@ My typical approach is to start with simple payloads in input fields, for exampl
 
 Then I send the requests through Burp Suite and watch what gets reflected back in the response. If characters like `<` and `>` are converted into entities such as `&lt;` and `&gt;`, that immediately gives me a better idea of how the application is processing input.
 
-I also pay attention to cookies and response headers to identify what kind of infrastructure may be sitting in front of the application. Sometimes you'll spot indicators of a WAF, load balancer, or other middleware. Even searching a few cookie names can reveal useful clues about the underlying technology stack.
+I also pay attention to cookies and response headers to identify what kind of infrastructure may be sitting in front of the application. 
 
-Developer tools are also extremely helpful for understanding context. I want to know exactly where the payload lands:
+Developer tools are extremely helpful for understanding context. I want to know exactly where the payload lands:
+Is the payload landing between HTML tags, inside an value, within javascipt..    This ddetermines how to break-out or encoding bypass.
 
-- Between HTML tags?
-- Inside an attribute value?
-- Embedded within JavaScript?
-- Rendered through a framework?
-
-That context determines what kind of breakout or encoding bypass might be required.
-
-A lot of XSS work is just careful observation:
-- how the application transforms input
-- where output is reflected
-- what gets filtered
-- what gets encoded
-- and what assumptions the developers made
-
+What characters are encoded, filtered, etc..
 </details>
 
 
