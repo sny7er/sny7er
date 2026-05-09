@@ -6,7 +6,8 @@
 <br><br>
 
 <details><br>
-<summary><b>Web App Notes</b></summary>
+<br>
+<b>XSS Workflow</b>
 
 <br>
 
