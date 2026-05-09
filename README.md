@@ -7,9 +7,8 @@
 
 
 <details>
-<summary>XSS Findings</summary>
-
-# XSS Findings
+  
+<b>XSS Findings<b>
 
 I've found quite a few stored and reflected XSS issues over the years. I enjoy discovering them and understanding how the application is handling input and output. I'll probably post more detailed writeups later, but for now I just wanted to share a few notes on my general process.
 
