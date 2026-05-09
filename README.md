@@ -5,9 +5,8 @@
 
 <br><br>
 
-<details><br>
-<br>
-<b>XSS Workflow</b>
+<details>
+<summary>XSS Workflow</summary>
 
 <br>
 
