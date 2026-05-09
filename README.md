@@ -5,6 +5,7 @@
 
 <br><br>
 
+<details><br>
 <summary><b>Web App Notes</b></summary>
 
 <br>
