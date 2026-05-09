@@ -5,7 +5,8 @@
 
 <br><br>
 
-<details |"XSS Findings">
+<summary><b>Web App Notes</b></summary>
+
 <br>
 
 I've found quite a few stored and reflected XSS issues over the years. I enjoy discovering them and understanding how the application is handling input and output. I'll probably post more detailed writeups later, but for now I just wanted to share a few notes on my general process.
