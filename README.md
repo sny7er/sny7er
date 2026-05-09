@@ -4,9 +4,42 @@
 <br>On a recent test I was able to run Mimikatz on a hardened laptop via the WinPwn tool.  I ran into blocks attempting to run Mimiktaz using AMSI-bypass techniques including many from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell which is not very surprising these days.  However WinPwn; https://github.com/S3cur3Th1sSh1t/WinPwn ran which contains many enumeration and exploit tools.  Since Mimikatz is loaded in an indirect way the endpoint allowed it to run.    
 
 <br><br>
-<b>XSS Findings</b><br>
-I've found quite a few stored and reflected xss, I enjoy discovering them.  I want to post more about this but for now I just wanted to share a few things.
-My typical process is to throw in quick payload into fields like <img src=xss> and see what happens.  Then I'll send those thru burp and see what reflects.  If the >< get converted to &lt; that gives me an idea of what's going on.  I also like to look at the cookies and response headers to see if a WAF or F5 is in play.  Google some of the cookie names and you'll get an idea of the tehnology you're dealing with.   I use developer tools to see where the payload is landing in terms of it's context and what is going on.   Is the payload landing between html tags <> or within a value "" ..  what kind of break-out do I need.   
+
+
+<details>
+<summary>XSS Findings</summary>
+
+# XSS Findings
+
+I've found quite a few stored and reflected XSS issues over the years. I enjoy discovering them and understanding how the application is handling input and output. I'll probably post more detailed writeups later, but for now I just wanted to share a few notes on my general process.
+
+My typical approach is to start with simple payloads in input fields, for example:
+
+```html
+<img src=xss>
+```
+
+Then I send the requests through Burp Suite and watch what gets reflected back in the response. If characters like `<` and `>` are converted into entities such as `&lt;` and `&gt;`, that immediately gives me a better idea of how the application is processing input.
+
+I also pay attention to cookies and response headers to identify what kind of infrastructure may be sitting in front of the application. Sometimes you'll spot indicators of a WAF, load balancer, or other middleware. Even searching a few cookie names can reveal useful clues about the underlying technology stack.
+
+Developer tools are also extremely helpful for understanding context. I want to know exactly where the payload lands:
+
+- Between HTML tags?
+- Inside an attribute value?
+- Embedded within JavaScript?
+- Rendered through a framework?
+
+That context determines what kind of breakout or encoding bypass might be required.
+
+A lot of XSS work is just careful observation:
+- how the application transforms input
+- where output is reflected
+- what gets filtered
+- what gets encoded
+- and what assumptions the developers made
+
+</details>
 
 
 
