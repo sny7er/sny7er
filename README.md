@@ -29,13 +29,7 @@ What characters are encoded, filtered, etc..
 </details>
 
 
-
 <br><br>
-<b>Enumerating a Network - Getting Web Sites into Burp</b>
-<br>I was put on a test where we soon discovered there was a large volume of web sites that needed to be looked over.  Burp is then the go to tool to analyze these. NMAP is the goto tool to scan a network to discover which IP addresses are running http services. 
-nmap -p 80 -oN filename
+<b>Getting large number of Web Sites into Burp</b>
 
-<br>
-<br>
-<b>Recon Workflow</b>
-<br><br>
+
