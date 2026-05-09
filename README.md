@@ -1,5 +1,6 @@
 
-<h1>Recent Findings</h1>
+<h2>Recent Work</h2>
+<br><br>
 <b></b>Mimikatz on Hardened Endpoint</b>
 <br>
 <b>Enumerating a Network - Getting Web Sites into Burp</b>
