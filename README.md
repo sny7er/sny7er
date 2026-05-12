@@ -33,7 +33,7 @@ What characters are encoded, filtered, etc..
 <b>Getting large number of Web Sites into Burp</b><br>
 a. Scan the network for common web ports with nmap and output that in greppable format -oG net.scan<br>
 b. Open burp and have it ready to accept incoming requests<br>
-c. Then you cat that file into burp using 'cat net.scan --proxy localhost:8080'<br>
+c. Then you cat that file into burp using something like 'for i in $(cat net.scan)do curl --proxy localhost:8080'<br>
    You should now see the web sites appearing in Burp<br>
 
 
