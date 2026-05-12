@@ -30,7 +30,7 @@ What characters are encoded, filtered, etc..
 
 
 <br><br>
-<b>Getting large number of Web Sites into Burp</b>
+<b>Getting large number of Web Sites into Burp</b><br>
 a. Scan the network for common web ports with nmap and output that in greppable format -oG net.scan
 b. Open burp and have it ready to accept incoming requests
 c. Then you cat that file into burp using 'cat net.scan --proxy localhost:8080'
