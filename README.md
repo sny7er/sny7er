@@ -4,6 +4,8 @@
 <br>On a recent test I was able to run Mimikatz on a hardened laptop via the WinPwn tool.  I ran into blocks attempting to run Mimiktaz using AMSI-bypass techniques including many from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell which is not very surprising these days.  However WinPwn; https://github.com/S3cur3Th1sSh1t/WinPwn ran which contains many enumeration and exploit tools.  Since Mimikatz is loaded in an indirect way the endpoint allowed it to run.    
 
 <br><br>
+Neat little trick to enumerate web sites via the SSL Cert<br>
+nmap -Pn -p 443 --script ssl-cert --open [target].250-253| grep -e 172.24.100 -e "commonName"<br><br>
 
 <details>
 <summary>XSS Workflow</summary>
