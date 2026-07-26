@@ -2,7 +2,9 @@
 <br>
 
 <b>HTML Inj/XSS, iDRAC, SMB Access</b>
-<br>On a recent test found these on a secured network where I didn't expect to find anything.  I learned you can't assume there isn't a security weakness in a highly secure network</br><br>
+<br>On a recent test found these on a secured network where I didn't expect to find anything.  I learned you can't assume there isn't a security weakness in a highly secure network<br>
+I was shipped a special locked down laptop built to access the secured network which, although it had a many addresses they were not being used. 
+
 
 
 <b>Mimikatz on Hardened Endpoint</b>
