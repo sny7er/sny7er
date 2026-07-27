@@ -2,9 +2,9 @@
 <br>
 
 <b>HTML Inj/XSS, iDRAC, SMB Access</b>
-<br>On a recent test found these on a secured network where I didn't expect to find anything.  I learned you can't assume there isn't a security weakness in a highly secure network<br>
+<br>On a recent test found these on a secured network where I didn't expect to find anything.  I learned you can't assume there isn't a security weakness in a highly secure network.
 I was shipped a special locked down laptop built to access the secured network which, although it had a many addresses they were not being used. <br>
-Injected a login form to demonstrate weaponization and sent the test creds to my C2 server.<br>
+Injected a login form to demonstrate weaponization and sent the test creds to my C2 server.
 SMB anonymous access had tools and scripts with user community access, could have been used as a supply chain attack.<br>
 
 
