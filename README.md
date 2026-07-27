@@ -8,7 +8,8 @@ I was shipped a special locked down laptop built to access the secured network w
 
 
 <b>Mimikatz on Hardened Endpoint</b>
-<br>On a recent test I was able to run Mimikatz on a hardened laptop via the WinPwn tool.  I ran into blocks attempting to run Mimiktaz using AMSI-bypass techniques including many from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell which is not very surprising these days.  However WinPwn; https://github.com/S3cur3Th1sSh1t/WinPwn ran which contains many enumeration and exploit tools.  Since Mimikatz is loaded in an indirect way the endpoint allowed it to run.    
+<br>On a recent test I was able to run Mimikatz on a hardened laptop via the WinPwn tool.  I ran into blocks attempting to run Mimiktaz using AMSI-bypass techniques including many from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell which is not very surprising these days.  However WinPwn; https://github.com/S3cur3Th1sSh1t/WinPwn ran which contains many enumeration and exploit tools.  Since Mimikatz is loaded in an indirect way the endpoint allowed it to run. <br>
+After enumerating the target environment and attempting multiple AMSI and Microsoft Defender bypass techniques without success, I discovered the WinPwn framework. Using WinPwn, I was able to successfully execute Mimikatz on a fully patched Windows system with Microsoft Defender enabled, demonstrating an effective endpoint protection bypass in a controlled lab environment.
 
 <br><br>
 Neat little trick to enumerate web sites via the SSL Cert<br>
