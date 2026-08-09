@@ -32,7 +32,7 @@ I was provided a well-hardened endpoint to test.  Direct Mimikatz execution was 
 
 **Takeaway:** Direct signature-based blocks on known tools like Mimikatz don't always account for tools that load them as a dependency rather than invoking them by name — a useful reminder when evaluating EDR coverage.
 <br><br>
-## Tips / Tricks
+## Tips
 
 ### Enumerate Web Sites via SSL Certificate
 
