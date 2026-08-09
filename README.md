@@ -1,15 +1,3 @@
-<h2>Recent Work</h2>
-<br>
-
-<b>HTML Inj/XSS, iDRAC, SMB Access</b>
-<br>On a recent test found these on a secured network where I didn't expect to find anything.  I learned you can't assume there isn't a security weakness in a highly secure network.
-I was shipped a special locked down laptop built to access the secured network which, although it had a many addresses they were not being used. <br>
-Injected a login form to demonstrate weaponization and sent the test creds to my C2 server.
-SMB anonymous access had tools and scripts with user community access, could have been used as a supply chain attack.<br>
-
-
-  
-
 ### XSS → Credential Harvesting Demo
 
 On a recent engagement I found a reflected XSS vulnerability on an anonymously-accessible endpoint and was asked to demonstrate real-world impact. Since there was no login session to hijack, I used HTML injection to render a spoofed login form in its place — showing the client how easily user credentials could be harvested. I also walked a teammate through the approach as a quick knowledge-share.
