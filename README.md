@@ -24,6 +24,39 @@ I was provided a well-hardened endpoint to test.  Direct Mimikatz execution was 
 
 **Takeaway:** Direct signature-based blocks on known tools like Mimikatz don't always account for tools that load them as a dependency rather than invoking them by name — a useful reminder when evaluating EDR coverage.
 <br><br>
+## Tips / Tricks
+
+### Enumerate Web Sites via SSL Certificate
+
+When scanning a network range, the `commonName` field in SSL certs often reveals hostnames that wouldn't otherwise surface in a basic port scan — useful for building out a target list quickly.
+
+```bash
+nmap -Pn -p 443 --script ssl-cert 10.0.0.250-253 | grep -e "commonName"
+```
+
+### Getting a Large Number of Web Sites into Burp
+
+For quickly funneling a whole subnet's worth of web servers into Burp's site map without manually browsing to each one:
+
+1. Scan the network for common web ports and output in greppable format:
+```bash
+   nmap -p 80,443 10.0.0.0/24 -oG net.scan
+```
+2. Open Burp and have it listening for incoming proxy traffic.
+3. Loop through the discovered hosts, routing each request through the Burp proxy:
+```bash
+   for i in $(grep '/open/' net.scan | awk '{print $2}'); do
+     curl -sk --proxy localhost:8080 https://$i
+   done
+```
+
+
+
+
+
+
+
+<br><br><br><br>
 
 ## Tips / Tricks <br>
 
