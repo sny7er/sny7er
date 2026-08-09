@@ -53,27 +53,3 @@ For quickly funneling a whole subnet's worth of web servers into Burp's site map
 
 
 
-
-
-
-<br><br><br><br>
-
-## Tips / Tricks <br>
-
-
-### Enumerate web sites via the SSL Cert<br>
-nmap -Pn -p 443 --script ssl-cert --open [target].250-253| grep -e 172.24.100 -e "commonName"
-
-
-
-
-<br><br>
-### Getting large number of Web Sites into Burp<br>
-a. Scan the network for common web ports with nmap and output that in greppable format -oG net.scan<br>
-b. Open burp and have it ready to accept incoming requests<br>
-c. Use a for loop to cat that file into Burp with something like 'for i in $(cat net.scan)do curl --proxy localhost:8080'<br>
-
-
-
-
-
