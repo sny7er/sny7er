@@ -17,7 +17,7 @@
 
   <text x="40" y="70" font-family="Courier New, monospace" font-size="12" letter-spacing="1" fill="#4a4844">FILE REF: GITHUB / SEC-OPS / REV. 2026</text>
 
-  <text x="40" y="118" font-family="Courier New, monospace" font-size="46" font-weight="700" letter-spacing="1" fill="#1b1b18">Mark Snyder</text>
+  <text x="40" y="118" font-family="Courier New, monospace" font-size="46" font-weight="700" letter-spacing="1" fill="#1b1b18">[MY NAME]</text>
 
   <text x="40" y="150" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4a4844">Senior Penetration Tester &#183; Web &#183; API &#183; Network</text>
 
