@@ -13,14 +13,21 @@ On a recent engagement I found a reflected XSS vulnerability on an anonymously-a
 
 
 
-<br>
+<br><br>
 
 
 
 
 
-<b>Mimikatz on Hardened Endpoint</b>
-<br>On a recent test I was able to run Mimikatz on a hardened laptop via the WinPwn tool.  I ran into blocks attempting to run Mimiktaz using AMSI-bypass techniques including many from https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell which is not very surprising these days.  However WinPwn; https://github.com/S3cur3Th1sSh1t/WinPwn ran which contains many enumeration and exploit tools.  Since Mimikatz is loaded in an indirect way the endpoint allowed it to run. <br>
+### Mimikatz Execution on a Hardened Endpoint via WinPwn
+
+On a recent engagement I ran into a well-hardened endpoint where direct Mimikatz execution was reliably blocked, even after trying several AMSI-bypass techniques (including a number from [Amsi-Bypass-Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell), which — unsurprisingly — were already well signatured). I pivoted to [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn), a broader enumeration and exploitation toolkit, which loads Mimikatz indirectly rather than invoking it directly. That indirection was enough to slip past the endpoint's detection and get it running.
+
+**Takeaway:** Direct signature-based blocks on known tools like Mimikatz don't always account for tools that load them as a dependency rather than invoking them by name — a useful reminder when evaluating EDR coverage.
+
+
+
+<br><br>
 
 <br><br>
 Neat little trick to enumerate web sites via the SSL Cert<br>
