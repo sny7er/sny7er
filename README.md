@@ -1,3 +1,5 @@
+## Selected Findings
+
 ### XSS → Credential Harvesting Demo
 
 I found a reflected XSS vulnerability on an anonymously-accessible endpoint and was asked to demonstrate real-world impact. Since there was no login session to hijack, I used HTML injection to render a spoofed login form in its place — showing the client how easily user credentials could be harvested. I also walked a teammate through the approach as a quick knowledge-share.
