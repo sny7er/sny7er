@@ -1,6 +1,6 @@
 ### XSS → Credential Harvesting Demo
 
-On a recent engagement I found a reflected XSS vulnerability on an anonymously-accessible endpoint and was asked to demonstrate real-world impact. Since there was no login session to hijack, I used HTML injection to render a spoofed login form in its place — showing the client how easily user credentials could be harvested. I also walked a teammate through the approach as a quick knowledge-share.
+I found a reflected XSS vulnerability on an anonymously-accessible endpoint and was asked to demonstrate real-world impact. Since there was no login session to hijack, I used HTML injection to render a spoofed login form in its place — showing the client how easily user credentials could be harvested. I also walked a teammate through the approach as a quick knowledge-share.
 
 
 ```html
@@ -13,15 +13,12 @@ On a recent engagement I found a reflected XSS vulnerability on an anonymously-a
 
 
 
-<br><br>
-
-
-
+<br>
 
 
 ### Mimikatz Execution on a Hardened Endpoint via WinPwn
 
-On a recent engagement I ran into a well-hardened endpoint where direct Mimikatz execution was reliably blocked, even after trying several AMSI-bypass techniques (including a number from [Amsi-Bypass-Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell), which — unsurprisingly — were already well signatured). I pivoted to [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn), a broader enumeration and exploitation toolkit, which loads Mimikatz indirectly rather than invoking it directly. That indirection was enough to slip past the endpoint's detection and get it running.
+I was provided a well-hardened endpoint to test.  Direct Mimikatz execution was reliably blocked, even after trying several AMSI-bypass techniques (including a number from [Amsi-Bypass-Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell), which — unsurprisingly — were already well signatured). I pivoted to [WinPwn](https://github.com/S3cur3Th1sSh1t/WinPwn), a broader enumeration and exploitation toolkit, which loads Mimikatz indirectly rather than invoking it directly. That indirection was enough to slip past the endpoint's detection and get it running.
 
 **Takeaway:** Direct signature-based blocks on known tools like Mimikatz don't always account for tools that load them as a dependency rather than invoking them by name — a useful reminder when evaluating EDR coverage.
 
