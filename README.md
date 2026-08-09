@@ -1,7 +1,7 @@
 ## Currently
 
 - 🎯 Preparing for the **OSCP** (expected Dec 2026)
-- 🤖 Building small AI agent tooling — experimenting with tool/function calling and exploring how LLM-assisted workflows fit into a pentest methodology (sanitized recon correlation, report drafting)
+- 🤖 Building small AI agent tooling — experimenting with tool/function calling and exploring how LLM-assisted workflows fit into a pentest methodology.
 - 🔍 Digging into **LLM security** — prompt injection and system-prompt leakage on the offensive side, alongside sanitization practices for safely feeding engagement data into AI tools
 <br>
 
